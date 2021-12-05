@@ -2,23 +2,107 @@
 	clear: both;
 }
 
+#cv {
+	padding: 50px;
+	background-color: #f3f3f3;
+	color: #444444;
+	font-size: 20px;
+}
+
+.subDetails {
+	font-style: italic;
+}
+
+body {
+	width: 1025px;
+	margin: auto;
+}
+
+
+.mainDetails {
+	border-bottom: solid 2px #cf8a05;
+}
+
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	margin-left: 5%;
 }
 
-#name {
-	float: left;
+
+img {
+	border-radius: 200px;
 }
+
+#mainArea {
+		font-family: Arial, Helvetica, sans-serif;
+		margin: auto;
+	}
+
+
+
+#name {
+	line-height: 0px;
+	float: left;
+	color: #181818;
+	font-size: 25px;
+	}
+
+h1 {
+	font-family: Rokkitt, sans-serif;
+	}
+
+section {
+	border-top: 1px solid;
+	border-color: #dedede;
+	
+	}
+
+h2 {
+	line-height: 0px;
+}
+
+
+section:first-child {
+	border-top: 0px
+	
+}
+
+
+li {
+	list-style: none;
+}
+
+
+.keySkills {
+	padding: 0%;
+}
+
+.keySkills li {
+	display: inline-block;
+	width: 30%;
+}
+
+
+a:link {
+	color: #181818;
+	text-decoration: none;
+}
+
 
 #contactDetails {
 	float: right;
+	list-style: none;
+	color: #181818;
+	
 }
 
 .sectionTitle {
+	font-size: 25px;
 	float: left;
 	width: 25%;
+	color: #cf8a05;
 }
 
 .sectionContent {
