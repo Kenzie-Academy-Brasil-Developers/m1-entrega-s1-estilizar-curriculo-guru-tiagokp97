@@ -61,6 +61,16 @@ section {
 
 h2 {
 	line-height: 0px;
+	
+}
+
+.sectionContent article h2 {
+	margin-bottom: 20px;
+	
+}
+
+.subDetails {
+	margin: 3px;
 }
 
 
