@@ -75,9 +75,10 @@ h2 {
 
 
 section:first-child {
-	border-top: 0px
-	
+	border-top: 0px;
+		
 }
+
 
 
 li {
@@ -114,6 +115,13 @@ a:link {
 	width: 25%;
 	color: #cf8a05;
 }
+
+.sectionTitle h1 {
+	font-weight: normal;
+
+	}
+
+
 
 .sectionContent {
 	float: right;
