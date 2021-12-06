@@ -20,7 +20,7 @@ body {
 
 
 .mainDetails {
-	border-bottom: solid 2px #cf8a05;
+	border-bottom: solid 3px #cf8a05;
 }
 
 #headshot {
@@ -28,6 +28,7 @@ body {
 	float: left;
 	margin-right: 30px;
 	margin-left: 5%;
+	margin-bottom: 3%;
 }
 
 
@@ -45,18 +46,19 @@ img {
 #name {
 	line-height: 0px;
 	float: left;
-	color: #181818;
 	font-size: 25px;
+	color: #181818;
 	}
 
 h1 {
 	font-family: Rokkitt, sans-serif;
+	
 	}
 
 section {
 	border-top: 1px solid;
 	border-color: #dedede;
-	
+	border-width: 1px;
 	}
 
 h2 {
@@ -65,7 +67,8 @@ h2 {
 }
 
 .sectionContent article h2 {
-	margin-bottom: 20px;
+	margin-bottom: 25px;
+	width: 50%;
 	
 }
 
@@ -110,11 +113,18 @@ a:link {
 }
 
 .sectionTitle {
-	font-size: 25px;
+	font-size: 26px;
 	float: left;
 	width: 25%;
 	color: #cf8a05;
+	font-style: italic;
+	}
+
+h2 {
+	font-weight: lighter;
+	color: #181818;
 }
+
 
 .sectionTitle h1 {
 	font-weight: normal;
